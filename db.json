@@ -1,210 +1,60 @@
-[
-   {
-      "id":"1",
-      "usuario":{
-         "nomeCompleto":"julio",
-         "cpf":"000000000",
-         "senha":"123",
-         "matricula":"123",
-         "informacoes":""
+{
+   "usuarios":[
+      {
+         "id":"1",
+         "usuario":{
+            "nomeCompleto":"julio",
+            "cpf":"000000000",
+            "senha":"123",
+            "matricula":"123",
+            "informacoes":""
+         },
+         "exercicios":[
+            {
+               "categoria":"Costas",
+               "nome":"Barra fixa",
+               "selecionado":"true",
+               "serie":"2",
+               "repeticao":"3",
+               "eoC???":"1"
+            },
+            {
+               "categoria":"Pernas",
+               "nome":"Barra fixa",
+               "selecionado":"",
+               "serie":"",
+               "repeticao":"",
+               "eoC???":""
+            }
+         ]
       },
-      "exercicios":[
-         {
-            "categoria":"Costas",
-            "nome":"Barra fixa",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
+      {
+         "id":"2",
+         "usuario":{
+            "nomeCompleto":"julio2",
+            "cpf":"000000000",
+            "senha":"123",
+            "matricula":"123",
+            "informacoes":""
          },
-         {
-            "categoria":"Costas",
-            "nome":"Pull down",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Costas",
-            "nome":"Remada baixa",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Costas",
-            "nome":"Remada curvada",
-            "selecionado":"true",
-            "serie":"4",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Costas",
-            "nome":"Remada aparelho",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"10"
-         },
-         {
-            "categoria":"Membros inferiores",
-            "nome":"Agachamento hack",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Membros inferiores",
-            "nome":"Agachamento smith",
-            "selecionado":"true",
-            "serie":"4",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Membros inferiores",
-            "nome":"Agachamento",
-            "selecionado":"true",
-            "serie":"4",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Membros inferiores",
-            "nome":"Passada",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"20"
-         },
-         {
-            "categoria":"Membros inferiores",
-            "nome":"Leg médio",
-            "selecionado":"true",
-            "serie":"4",
-            "repeticao":"20"
-         },
-         {
-            "categoria":"Membros superiores",
-            "nome":"Rosca punho",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Membros superiores",
-            "nome":"Rosca bíceps direta",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Membros superiores",
-            "nome":"Rosca bíceps alternada",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Membros superiores",
-            "nome":"Rosca bíceps concentrada",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Membros superiores",
-            "nome":"Rosca bíceps martelo",
-            "selecionado":"true",
-            "serie":"4",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Peitoral",
-            "nome":"Supino reto",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Peitoral",
-            "nome":"Voador",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Peitoral",
-            "nome":"Crucifixo",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Peitoral",
-            "nome":"Cross over",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Peitoral",
-            "nome":"Supino vertical",
-            "selecionado":"true",
-            "serie":"4",
-            "repeticao":"15"
-         },
-         {
-            "categoria":"Ombro",
-            "nome":"Elevação lateral",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"10"
-         },
-         {
-            "categoria":"Ombro",
-            "nome":"Elevação frontal",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"10"
-         },
-         {
-            "categoria":"Ombro",
-            "nome":"Desenvolvimento aparelho",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"10"
-         },
-         {
-            "categoria":"Trapézio",
-            "nome":"Remada alta",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"10"
-         },
-         {
-            "categoria":"Trapézio",
-            "nome":"Encolhimento",
-            "selecionado":"true",
-            "serie":"3",
-            "repeticao":"10"
-         },
-         {
-            "categoria":"Abdômen",
-            "nome":"Infra",
-            "selecionado":"true",
-            "serie":"4",
-            "repeticao":"20"
-         },
-         {
-            "categoria":"Abdômen",
-            "nome":"Supra",
-            "selecionado":"true",
-            "serie":"4",
-            "repeticao":"20"
-         },
-         {
-            "categoria":"Abdômen",
-            "nome":"Obliquo",
-            "selecionado":"true",
-            "serie":"4",
-            "repeticao":"20"
-         }
-      ]
-   }
-]
+         "exercicios":[
+            {
+               "categoria":"Costas",
+               "nome":"Barra fixa",
+               "selecionado":"true",
+               "serie":"2",
+               "repeticao":"3",
+               "eoC???":"1"
+            },
+            {
+               "categoria":"Pernas",
+               "nome":"Barra fixa",
+               "selecionado":"",
+               "serie":"",
+               "repeticao":"",
+               "eoC???":""
+            }
+         ]
+      }
+   ]
+}
